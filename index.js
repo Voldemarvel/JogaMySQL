@@ -4,7 +4,7 @@ const app = express()
 
 const path = require('path')
 //add template engine
-const hbs = require('express handlebars');
+const hbs = require('express-handlebars');
 // setup template engine dir and files extension
 app.set('views',path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
@@ -23,7 +23,7 @@ app.use(bodyParser.urlencoded({extend: true}))
 var con = mysql.createConnection({
     host: "localhost",
     user: "root",
-    passowrd: "qwerty",
+    password: "qwerty",
     database: "joga_mysql"
 })
 
