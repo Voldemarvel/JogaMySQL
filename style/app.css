@@ -1,0 +1,128 @@
+.alert {
+    background-color: #B83E3E;
+    color: #fff;
+    margin: 24px;
+    max-width: 700px;
+    padding: 24px;
+}
+
+.article-list {
+    display: grid;
+    grid-gap: 24px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.article-list a:link, .article-list a:visited, .article-list a:hover, .article-list a:active {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.article-list article {
+    border-bottom: #666 5px solid;
+}
+
+.article-list h2 {
+    margin: 0;
+    padding: 12px;
+}
+
+body {
+    background-color: #eee;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+}
+
+form button {
+    background-color: #3D518C;
+    border: #3D518C 1px solid;
+    border-radius: 0;
+    color: #FFFFFF;
+    font-size: 100%;
+    padding: 15px 15px 16px 15px;
+}
+
+form button:hover {
+    background-color: #556DB4;
+}
+
+form button.danger {
+    background-color: #B83E3E;
+    border: #B83E3E 1px solid;
+}
+
+form button.danger:hover {
+    background-color: #eb5050;
+}
+
+form input, form select, form textarea {
+    border: #3D518C 1px solid;
+    box-sizing: border-box;
+    font-size: 100%;
+    margin-bottom: 24px;
+    padding: 12px;
+    width: 100%;
+}
+
+form label {
+    cursor: pointer;
+    margin-bottom: 6px;
+}
+
+form select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+}
+
+form textarea {
+    min-height: 240px;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 5px 5px red;
+    font-size: 160%;
+    font-weight: bold;
+    padding: 24px;
+    text-align: center;
+}
+
+header a:link, header a:visited, header a:active, header a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+header hr {
+    display: none;
+}
+
+main {
+    background-color: #fff;
+    margin: 24px;
+    max-width: 700px;
+    padding: 24px;
+}
+
+main h1, main p.breadcrumbs {
+    margin-top: 0;
+}
+
+main img {
+    max-width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td, table th {
+    border: #ccc 1px solid;
+    padding: 12px;
+}
+
+table th {
+    background-color: #eee;
+}
